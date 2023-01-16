@@ -9,7 +9,7 @@ body {
   font-family: var(--primery-font);
   font-size: 16px;
   font-weight: 500;
-  font-color: #434455;
+  color: #434455;
   background-color: #FFFFFF;
 
 }
@@ -72,6 +72,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .header-container {
@@ -210,7 +211,7 @@ clip: rect(0
 .portfolio {  
   padding-top: 96px;
   padding-bottom: 120px;
-  background: #E5E5E5;
+  /* background: #E5E5E5; */
 }
 .portfolio-btn-list { 
   display: flex;  
@@ -308,7 +309,7 @@ clip: rect(0
 
 .feature {
   padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 .feature-list {
   display: flex;
