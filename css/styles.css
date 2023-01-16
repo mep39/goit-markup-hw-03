@@ -39,7 +39,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  
+  /* outline: 2px solid red; */
 }
 
 .list {
@@ -160,8 +160,8 @@ img {
   letter-spacing: 0.02em;
   color: #FFFFFF;
   
-  margin: 0 auto;
-  margin-bottom: 48px;
+  /* margin: 0 auto; */
+  padding-bottom: 48px;
 
   /* padding-top: 188px;
   padding-bottom: 48px; */
@@ -180,9 +180,10 @@ img {
   color: #FFFFFF;
   background: #4D5AE5;
   cursor: pointer;
+  border: 0;
 
   border-radius: 4px;
-
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   padding: 16px 32px;
   /* padding-bottom: 188px; */
   margin-left: 479px;
@@ -209,6 +210,7 @@ clip: rect(0
 .portfolio {  
   padding-top: 96px;
   padding-bottom: 120px;
+  background: #E5E5E5;
 }
 .portfolio-btn-list { 
   display: flex;  
@@ -221,7 +223,7 @@ clip: rect(0
 .portfolio-btn-list :focus {
 }
 .portfolio-btn-item button {
-  max-width: 80px;
+  /* max-width: 80px; */
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -261,7 +263,7 @@ clip: rect(0
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  
+  background: #E5E5E5;  
   
 }
 .container portfolio-content {
@@ -275,6 +277,7 @@ clip: rect(0
   max-width: 360px;
   /* margin: 0; */
   flex-basis: calc((100% - 2 * 24px) / 3);
+  
 }
 
 .portfolio-item:nth-child(3n) {
@@ -304,8 +307,8 @@ clip: rect(0
 }
 
 .feature {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .feature-list {
   display: flex;
@@ -330,8 +333,8 @@ clip: rect(0
   color: var(--secondary-color);
 }
 .gallery {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .gallery-title {
@@ -358,6 +361,9 @@ clip: rect(0
 }
 
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #F4F4FD;
 }
 .team-title {
   font-weight: 700;
@@ -368,15 +374,20 @@ clip: rect(0
   text-transform: capitalize;
   color: var(--accent-color);
 
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .team-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  
 }
 .team-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  background: #FFFFFF;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  
 }
 .team-item-title {
   font-size: 20px;
@@ -394,8 +405,9 @@ clip: rect(0
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   font-weight: 400;
+  background: #FFFFFF;
 
-  padding-bottom: 152px;
+  padding-bottom: 32px;
 }
 /* ----------------------FOOTER------------------ */
 .footer {
