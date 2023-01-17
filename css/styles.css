@@ -39,7 +39,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 .list {
@@ -264,10 +264,14 @@ clip: rect(0
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  background: #E5E5E5;  
+  /* background: #E5E5E5;   */
   
 }
-.container portfolio-content {
+.portfolio-content {
+  padding: 32px 16px;
+  border: 1px solid #E7E9FC;
+  width: 100%;
+  border-top: none;
   
 }
 
@@ -294,8 +298,9 @@ clip: rect(0
   letter-spacing: 0.02em;
   color: var(--accent-color); 
   
-  padding-top: 32px;
-  padding-bottom: 8px;
+  /* padding-top: 32px; */
+  /* padding-bottom: 8px; */
+  margin-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -304,7 +309,7 @@ clip: rect(0
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 
 .feature {
